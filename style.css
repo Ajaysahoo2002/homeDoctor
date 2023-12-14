@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.companyLogo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: rgb(0, 149, 255);
+  color: white;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.navbar li {
+  margin: 0 1rem;
+  padding: 0 1rem;
+  transition: 0.2s ease-in-out;
+}
+.navbar li:hover {
+  color: blue;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.header-image-section {
+  color: white;
+  width: 100%;
+  height: 80vh;
+  background: url("back1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-image-section .header_container {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: rgba(6, 6, 6, 0.7);
+}
+.header-image-section h1 {
+  font-weight: 300;
+}
+.header-image-section h5 {
+  margin: 1rem;
+}
+.header-image-section .headerImageContainer {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 0 30rem;
+}
+.header-image-section .headerImageContainer button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: white;
+  border-color: white;
+  background-color: transparent;
+  transition: 0.2s ease-in-out;
+}
+.header-image-section .headerImageContainer button:hover {
+  color: rgb(0, 149, 255);
+  border-color: rgb(0, 149, 255);
+}
+.header-image-section .header_container_icons {
+  display: flex;
+  justify-content: center;
+}
+.header-image-section .header_container_icons i {
+  margin: 1rem 0.5rem;
+  color: white;
+}
+
+.mainContainer .employee_images {
+  background: linear-gradient(to bottom, rgb(0, 149, 255), rgb(231, 231, 231));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+.mainContainer .employee_images .card {
+  margin: 1rem 0.5rem;
+  background-color: white;
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainContainer .employee_images .card h5 {
+  color: rgb(0, 149, 255);
+  font-weight: 400;
+  margin-bottom: 0.3rem;
+}
+.mainContainer .employee_images img {
+  height: 70px;
+}
+.mainContainer .about_section {
+  text-align: center;
+  padding: 1rem;
+  background-color: white;
+}
+.mainContainer .about_section h2 {
+  font-weight: 400;
+  color: rgb(0, 149, 255);
+  padding: 1rem 0;
+}
+.mainContainer .about_section .about_company {
+  width: 100%;
+}
+.mainContainer .about_section .about_company .about_company_container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  flex-wrap: wrap;
+}
+.mainContainer .about_section .about_company .about_company_container img {
+  height: 30vh;
+  width: 90%;
+}
+.mainContainer .about_section .about_company .about_company_container .rightSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainContainer .about_section .about_company .about_company_container .rightSection h2 {
+  margin: 0 14rem;
+  padding: 0;
+  color: black;
+}
+.mainContainer .about_section .about_company .about_company_container .rightSection p {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+.mainContainer .about_section .about_company .about_company_container .rightSection button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: rgb(0, 149, 255);
+  border-color: rgb(0, 149, 255);
+  background-color: transparent;
+}
+.mainContainer .about_section .about_ceo {
+  width: 100%;
+}
+.mainContainer .about_section .about_ceo .about_ceo_container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  flex-wrap: wrap;
+}
+.mainContainer .about_section .about_ceo .about_ceo_container img {
+  height: 30vh;
+  width: 60%;
+}
+.mainContainer .about_section .about_ceo .about_ceo_container .leftSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right bottom, rgb(0, 149, 255), rgb(247, 245, 245));
+  padding: 1.5rem 0.8rem;
+}
+.mainContainer .about_section .about_ceo .about_ceo_container .leftSection h3 {
+  color: black;
+  margin-bottom: 0.5rem;
+}
+.mainContainer .about_section .about_ceo .about_ceo_container .leftSection p {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+.mainContainer .about_section .about_ceo .about_ceo_container .leftSection button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: rgb(0, 149, 255);
+  border-color: rgb(0, 149, 255);
+  background-color: transparent;
+}
+.mainContainer .about_section .company_icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+.mainContainer .about_section .company_icons img {
+  height: 50px;
+  margin: 0 1rem;
+}
+.mainContainer .service_section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, rgb(0, 149, 255), white, rgb(0, 149, 255));
+  padding: 2rem;
+  color: rgb(0, 149, 255);
+}
+.mainContainer .service_section h2 {
+  font-weight: 400;
+}
+.mainContainer .service_section .service_icons .icons {
+  display: flex;
+}
+.mainContainer .service_section .service_icons .icons .icon {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+.mainContainer .service_section .service_icons .icons .icon div {
+  background-color: rgb(0, 102, 255);
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  font-size: 2.2em;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.mainContainer .service_section .service_icons .icons .icon div i {
+  color: white;
+}
+.mainContainer .service_section .service_icons .icons .icon h5 {
+  font-weight: 300;
+  text-align: center;
+  margin-top: 1rem;
+}
+.mainContainer .review_section {
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.mainContainer .review_section h2 {
+  color: rgb(0, 149, 255);
+  font-weight: 400;
+}
+.mainContainer .review_section .sub_review1 {
+  display: flex;
+  background-color: rgb(0, 102, 255);
+  margin: 1rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: white;
+  width: 55%;
+}
+.mainContainer .review_section .sub_review1 img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 0 1rem;
+}
+.mainContainer .review_section .sub_reviewContainer {
+  display: grid;
+  grid-template-columns: 32% 33% 33%;
+}
+.mainContainer .review_section .sub_reviewContainer .sub_container {
+  margin: 0 1rem;
+}
+.mainContainer .review_section .sub_reviewContainer .sub_container .quote {
+  background-color: rgb(0, 102, 255);
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  color: white;
+}
+.mainContainer .review_section .sub_reviewContainer .sub_container .quote p {
+  text-align: justify;
+}
+.mainContainer .review_section .sub_reviewContainer .sub_container .quote p span {
+  color: yellow;
+  font-size: larger;
+}
+.mainContainer .review_section .sub_reviewContainer .sub_container .sub_review2 {
+  display: flex;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: black;
+}
+.mainContainer .review_section .sub_reviewContainer .sub_container .sub_review2 img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 0 1rem;
+}
+.mainContainer .review_section .sub_reviewContainer .sub_container .sub_review2 .container {
+  text-align: justify;
+}
+.mainContainer .review_section .sub_reviewContainer .sub_container .sub_review2 .container p {
+  color: grey;
+  font-size: small;
+}
+.mainContainer .review_section button {
+  background-color: black;
+  border-color: transparent;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.mainContainer .review_section button:hover {
+  color: rgb(0, 149, 255);
+  border-color: rgb(0, 149, 255);
+  background-color: transparent;
+}
+.mainContainer .inserance_section {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  position: relative;
+  top: 1rem;
+}
+.mainContainer .inserance_section .leftSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainContainer .inserance_section .leftSection p {
+  margin-bottom: 1rem;
+}
+.mainContainer .inserance_section .leftSection img {
+  height: 50px;
+}
+.mainContainer .inserance_section .leftSection h2,
+.mainContainer .inserance_section .leftSection h4 {
+  color: rgb(0, 149, 255);
+  font-weight: 300;
+}
+.mainContainer .inserance_section .rightSection img {
+  width: 90%;
+  height: 25vh;
+}
+.mainContainer .gallery_section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  margin-top: 4rem;
+}
+.mainContainer .gallery_section h2 {
+  color: rgb(0, 149, 255);
+  font-weight: 300;
+}
+.mainContainer .gallery_section img {
+  height: 20vh;
+  margin: 1rem 0.5rem;
+}
+
+.footer_section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: rgb(0, 102, 255);
+  position: relative;
+  padding: 1rem;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+}
+.footer_section img {
+  height: 33vh;
+}
+.footer_section h4,
+.footer_section h5,
+.footer_section td {
+  font-weight: 300;
+}
+.footer_section .middle_section {
+  text-align: center;
+  width: 23%;
+}
+.footer_section td:first-child {
+  text-align: left;
+}
+.footer_section tr td:last-child {
+  text-align: end;
+  width: 70%;
+}
+.footer_section .right_section {
+  line-height: 1.5rem;
+}
+.footer_section .right_section a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.footer_section .right_section a:hover {
+  color: blue;
+}
+
+.socialmedia {
+  display: flex;
+  width: 100%;
+  color: rgb(0, 149, 255);
+  padding: 0.5rem 1rem;
+  justify-content: space-between;
+}
+.socialmedia i {
+  margin: 1rem;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.socialmedia a {
+  margin: 0 2rem;
+  color: rgb(0, 149, 255);
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.socialmedia i:hover,
+.socialmedia a:hover {
+  color: blue;
+}/*# sourceMappingURL=style.css.map */
